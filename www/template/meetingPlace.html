@@ -1,0 +1,24 @@
+<ion-view class="background" title="My Meeting Place">
+    <ion-content padding="true">
+        
+        <ion-list class="list-notification" ng-repeat="meeting in meet">
+            
+                <ion-item class="item-icon-right item-avatar" >
+                    <img src="{{meeting.image}}" ui-sref="menu.placeDescription">
+                    <h2>{{meeting.name}}</h2>
+                    <p>{{meeting.adresse}}</p>
+                    <i class="icon ion-grid"></i>
+                    <ion-option-button class="button button-assertive">
+                    <i class="icon ion-trash-b" ng-click="deleteMeeting(meeting.id)"></i>
+                    </ion-option-button>
+                    <ion-option-button class="button button-calm">
+                        <i class="icon ion-edit"></i>
+                    </ion-option-button>
+                </ion-item>
+        </ion-list>
+        
+    </ion-content>
+    <div class="buttons btn-add">
+        <button class="button button-icon icon ion-plus-round" style="color: white;"></button>
+    </div>
+</ion-view>

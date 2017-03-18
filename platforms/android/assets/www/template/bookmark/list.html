@@ -1,0 +1,42 @@
+<div class="list" style="background: white;height:105px;border-bottom: 1px solid silver">
+			<div class="row">
+				<div class="col col-25">
+					<a class="item-thumbnail-left" ui-sref="menu.etablissement({etabId: {{etablissement.id}} })">
+						<img src="{{ etablissement.image }}">
+					</a>
+				</div>
+				<div class="col col-55" style="line-height: 12px;border-right: 1px solid silver">
+					<div style="margin-bottom: 5%;margin-top:2%;font-size: 12px;font-weight: bold;">{{ etablissement.title}}</div>
+					<div style="margin-bottom: 4%;">
+					<div tf-rate rate="{{ etablissement.rate }}">
+					</div>
+					<div tf-vote votes="{{ etablissemnt.votes}}" voters="{{ etablissent.voters }}">
+					</div>
+
+					</div>
+					
+					<div style="margin-top: 5%">
+					<p style="font-size: 12px;">
+						{{ etablissement.address }}
+					</p>
+					<p style="font-size: 12px;font-weight: bold;">
+						{{ etablissemnt.specialite }}
+					</p>
+					</div>
+
+				</div>
+				<div class="col col-20">
+					<div style="margin-top: 20%;">
+					<font style="font-size: 14px;color: #4BCCB8">
+						<i class="icon ion-ios-pricetags-outline" style=""></i> 
+						20 Dt
+					</font>
+					</div>
+					<div style="margin-top: 30%;">
+						<font tf-distance lat="{{ etablissement.latitude }}" long="{{ etablissement.longitude }}" style="font-size: 14px;color: #4BCCB8">
+					</font>
+					</div>
+				</div>
+			</div>
+
+		</div>

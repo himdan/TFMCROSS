@@ -1,0 +1,82 @@
+<ion-view class="background" title="etablissement">
+	
+	<ion-content>
+    <div class="list" style="background: white;height:85px;">
+  	<div class="mapEtablissement"></div>
+  			<div class="row">
+  				<div class="col col-25">
+  					<a  ui-sref="menu.etablissement">
+  						<img src="{{ etablissement.image }}" style="width: 100px;height: 100px;position: absolute;top: 60%;border:1px solid #4BCCB8">
+  					</a>
+  				</div>
+  				<div class="col col-55" style="line-height: 12px;border-right: 1px solid silver;padding-left: 20px;">
+  					<div style="margin-bottom: 5%;margin-top:2%;font-size: 10px;font-weight: bold;"> 
+            {{ etablissement.nom }}
+            </div>
+  					<div tf-rate rate="{{ etablissment.rate }}" style="margin-bottom: 3%;">
+              
+            </div>
+            <div tf-vote votes="{{ etablissemnt.vote }}" voters="{{ etablissemnt.voters }}">
+              
+            </div>
+  					
+  					<div style="margin-top: 5%">
+  					<p style="font-size: 10px;font-weight: bold;">
+  						{{ etablissement.specialite }} 
+  					</p>
+  					</div>
+
+  				</div>
+  				<div class="col col-20">
+  					<div style="margin-top: 10%;">
+  					<font style="font-size: 12px;color: #4BCCB8">
+  						<i class="icon ion-ios-pricetags-outline" style=""></i> 
+  						{{ etablissement.prix }} DT
+  					</font>
+  					</div>
+  					<div tf-distance lat="{{ etablissement.latitude }}" long="{{ etablissemnt.longitude}}">
+  					</div>
+  				</div>
+  			</div>
+
+<!--  		
+    		<div class="slide_etablissement">
+    			<ion-slide-box>
+              <ion-slide ng-repeat="gallery in etablissement.galleries">
+                <ul>
+                  <li ng-repeat="image in gallery.collection">
+                  		<img src="{{ image.src }}" />
+                  </li>
+                </ul>
+              </ion-slide>
+            </ion-slide-box>
+    		</div>
+-->
+        <!--description Section -->
+        <div class="list card">
+
+        <div class="item item-avatar">
+          <img src="{{ etablissement.image }}">
+          <h2>{{ etablissement.titre }}</h2>
+          <p>{{ etablissement.addresse }}</p>
+        </div>
+
+        <div class="item item-body">  
+            <img class="full-image" src="{{ etablissement.image }}">
+            <p>
+              {{ etablissement.description }}
+            </p>
+            <p class="smo-facebook">
+              <a href="#" class="subdued">1 Like</a>
+              <a href="#" class="subdued">5 Comments</a>
+              <a class="subdued">Location</a>
+              <a href="" class="subdued">Media</a>    
+            </p>
+        </div>
+
+      </div> 
+
+    </div>
+	</ion-content>
+
+</ion-view>

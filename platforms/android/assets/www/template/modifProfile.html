@@ -1,0 +1,49 @@
+<ion-view class="background" title="Vos informations">
+        <ion-nav-bar class="bar-positive headertop">
+            <ion-nav-buttons side="right">
+                <h6 style="color: white">Enregistrer</h6>
+            </ion-nav-buttons>
+            <ion-nav-buttons side="left">
+                <button  class="button button-icon icon ion-person" ui-sref="menu.modifProfile" title="modif profile" style="color:red"></button>
+            </ion-nav-buttons>
+         </ion-nav-bar>
+  <ion-content padding="true">
+        <form name="connectionForm">
+            <div class="connexion">
+                <div class="list list-inset">
+                	
+                    <label class="item item-input">
+                        <i class="icon ion-person placeholder-icon" style="font-size: 20px;color:#4BCCB8"></i>
+
+                        <input type="text" placeholder="Pseudo">
+                    </label>
+
+                    <label class="item item-input item-select">
+	                    <i class="icon ion-transgender placeholder-icon" style="font-size: 20px;color:#4BCCB8"></i>
+	                    <select>
+	                    	<option>Homme</option>
+	                    	<option>Femme</option>
+	                    </select>
+	                </label>
+	                    
+                    <label class="item item-input">
+                        <i class="icon ion-ios-world-outline placeholder-icon" style="font-size: 20px;color:#4BCCB8"></i>
+
+                        <input type="password" placeholder="Email">
+                    </label>
+
+                    <label class="item item-input">
+                        <i class="icon ion-iphone placeholder-icon" style="font-size: 20px;color:#4BCCB8"></i>
+
+                        <input type="tel" placeholder="Numéro de téléphone">
+                    </label>
+
+                    <label class="item item-input">
+					    <textarea placeholder="A propos de toi" rows="8"></textarea>
+					  </label>
+                </div>
+            </div>
+        </form>
+
+    </ion-content>
+</ion-view>

@@ -1,0 +1,14 @@
+
+<div ng-show="image.src" >
+	<img src="{{ image.src }}" style="width: 100px;height: 100px;border:1px solid #4BCCB8;display:block;  position:relative;  left:0;  right:0;  bottom:0;margin:auto;top:0%;">
+</div>
+<div ng-hide="image.src">
+<img src="img/lotfi.jpg" style="width: 100px;height: 100px;border:1px solid #4BCCB8;display:block;  position:relative;  left:0;  right:0;  bottom:0;margin:auto;top:0%;">
+</div>
+<div>
+	<button ng-click="takePicture()" class="button button-small button-block icon-left ion-ios-camera-outline boutonfacebookprofile">Camera</button>
+</div>
+<div>
+	<button ng-click="loadFromGallery()" class="button button-small button-block icon-left ion-ios-camera-outline boutonfacebookprofile">Gallerie</button>
+</div>
+

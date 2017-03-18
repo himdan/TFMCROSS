@@ -1,0 +1,270 @@
+body{
+	font-weight: normal;
+}
+.footer{
+    padding-left: 0px;
+    
+}
+.footertop{
+    background: white !important;
+    border-top:1px solid #4BCCB8!important;
+}
+
+.headertop{
+    background: #4BCCB8 !important;
+    border-bottom:0px;
+}
+.error{
+    color:red;
+}
+.button-custom {
+    background: #4BCCB8 !important;
+    color:white;
+}
+.connexion{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.connexionprofile{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.connexionprofileautre{
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.connexion .item-input{
+    
+   margin-bottom: 20px;
+}
+
+.input-label {
+   white-space: normal !important;
+   max-width: none !important;
+   width: 100%;
+}
+.btn-login{
+    background: #4BCCB8;
+    color: white;
+    border-radius: 0px;
+    height: 35px;
+}
+
+.boutonfacebookprofile{
+    background: #3AA998;
+    border-radius: 0px;
+    height: 25px;
+    
+    color: white;
+    font-size: 10px;
+}
+
+.boutonfacebookprofileautre{
+    background: #3AA998;
+    border-radius: 0px;
+    height: 15px;
+    
+    color: white;
+    font-size: 10px;
+}
+.boutonfacebookmodif{
+    background: #4BCCB8;
+    border-radius: 0px;
+    height: 25px;
+    
+    color: white;
+    font-size: 10px;
+}
+
+.boutonfacebook{
+    background: #3B5998;
+    border-radius: 0px;
+    height: 35px;
+    
+    color: white;
+    font-size: 12px;
+}
+
+.boutongoogle{
+    background: #DB4437;
+    border-radius: 0px;
+    height: 35px;
+    color: white;
+    font-size: 12px;
+}
+.textconnexion{
+    font-size: 10px;
+    color: #4BCCB8;
+    margin-bottom: 30px;
+    position: absolute;
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.textpartage{
+    font-size: 14px;
+    color: black;
+    position: absolute;
+   top: 10%;
+    left: 50%;
+    text-align: center;
+    width: 100%;
+
+    transform: translateX(-50%) translateY(-50%);
+}
+.texticone{
+    font-size: 15px;
+    color: black;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    margin-top: 10px;
+    transform: translateX(-50%) translateY(-50%);
+}
+.list{
+	margin-bottom: 0px;
+}
+
+.parametre .item{
+    padding: 11px !important;
+}
+
+.popup-head {
+
+    background-color: #4BCCB8;
+
+}
+.popup-title {
+
+    color: white;
+
+}
+
+.button-ok {
+
+    background-color: #4BCCB8;
+    color: white;
+
+}
+
+.map{
+    background: url(../img/map.png);
+    background-size:cover; 
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+
+.mapEtablissement{
+    background: url(../img/map.png);
+    background-size:cover; 
+    height: 20vh;
+    width: 100%;
+    margin-top: -1px;
+
+}
+
+.Profileimage{
+    background: url(../img/cover.png);
+    background-size:cover; 
+    height: 100px;
+    width: 100%;
+    margin-top: -1px;
+
+}
+
+
+.figcaption{
+    font-size: 11px;
+    color: white;
+}
+
+
+p.bloc-image {
+   display: inline-block;
+   text-align: center;
+}
+.fb{
+    background-image: url('../img/facebook.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+p.bloc-image img {
+}
+p.bloc-image span {
+   display:block;
+}
+
+.imgLocation{
+    margin-top: -8px;
+    width: 55px;
+    height: 55px;
+    z-index: 99999999;
+}
+
+.filtrePlat .button-small{
+    padding: 1px 1px 1px;
+    font-size: 11px;
+}
+
+.filtrePlat .col{
+    padding: 0px;
+}
+
+.filtrePlat .button{
+    margin: -2px;
+    border-style: none;
+    border-radius: 0px;
+}
+
+
+.filtrePlat .button-green{
+    background: #4BCCB8;
+    color:white;
+}
+
+.filtrePlat .button-white{
+    background: #EEECED;
+    color:black;
+}
+
+.filtrePlat{
+    height: 50px;
+    padding: 0px !important;
+}
+
+
+.filtrePlat .item-divider{
+    background:white;
+    font-size: 13px; 
+    margin-left: -8px;
+    border-bottom: 0px;
+    border-top: 0px;
+    height: 9px;
+    font-weight: normal;
+}
+
+.text-filtre{
+    font-size: 10px;
+}
+
+.slider {
+  height: 50%;
+}
+.slide_etablissement{
+    margin-top: 0px;
+}
+
+
+.slide_etablissement ul li {
+  text-align: left;
+  list-style: none;
+  float:left;
+  margin-left: 2px;
+}
+
+.slide_etablissement img{
+    width: 70px;
+    height: 70px;
+}

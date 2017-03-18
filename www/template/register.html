@@ -1,0 +1,66 @@
+<ion-view class="background" title="Inscription">
+  <ion-nav-bar class="bar-positive headertop">
+            <ion-nav-buttons side="right">
+                <button  class="button button-icon icon ion-ios-gear-outline" ui-sref="menu.config" title="config"></button>
+            </ion-nav-buttons>
+            <ion-nav-buttons side="left">
+                <button  class="button button-icon icon ion-person" ui-sref="menu.modifProfile" title="modif profile" style="color:red"></button>
+            </ion-nav-buttons>
+         </ion-nav-bar>
+  <ion-content padding="true">
+        <div class="row row-center espace-icon-login">
+              <div class="col col-100 text-center">
+                <img src="img/logo.png" class="imagelogo">
+              </div>
+            </div>
+        <form name="connectionForm">
+            <div class="connexion">
+                <div class="list list-inset">
+                  
+                    <label class="item item-input">
+                        <i class="icon ion-person placeholder-icon" style="font-size: 20px;color:#4BCCB8"></i>
+
+                        <input type="text" placeholder="Pseudo">
+                    </label>
+
+                    <label class="item item-input item-select">
+                      <i class="icon ion-transgender placeholder-icon" style="font-size: 20px;color:#4BCCB8"></i>
+                      <select>
+                        <option>Homme</option>
+                        <option>Femme</option>
+                      </select>
+                  </label>
+                      
+                    <label class="item item-input">
+                        <i class="icon ion-ios-world-outline placeholder-icon" style="font-size: 20px;color:#4BCCB8"></i>
+
+                        <input type="text" placeholder="Email">
+                    </label>
+
+                    <label class="item item-input">
+                        <i class="icon ion-ios-world-outline placeholder-icon" style="font-size: 20px;color:#4BCCB8"></i>
+
+                        <input type="text" placeholder="Confirmer email">
+                    </label>
+
+                    <label class="item item-input">
+                        <i class="icon ion-ios-locked placeholder-icon" style="font-size: 20px;color:#4BCCB8"></i>
+
+                        <input type="password" placeholder="Nouveau Mot de passe">
+                    </label>
+                    
+                    <label class="item item-input">
+                        <i class="icon ion-ios-locked placeholder-icon" style="font-size: 20px;color:#4BCCB8"></i>
+
+                        <input type="password" placeholder="Confirmer Mot de passe">
+                    </label>
+
+                    <button class="button button-block button-small btn-login">INSCRIPTION</button>
+                    <button class="button button-small button-block icon-left ion-social-facebook boutonfacebook" style="margin-bottom: 15px;margin-top: 30px">Inscrivez-vous avec Facebook</button>
+                    <button class="button button-small button-block icon-left ion-social-googleplus-outline boutongoogle">Inscrivez-vous avec Google</button>
+                </div>
+            </div>
+        </form>
+
+    </ion-content>
+</ion-view>

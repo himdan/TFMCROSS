@@ -1,0 +1,51 @@
+<ion-view class="background" title="TF EXPLORE" style="background: rgba(75,204,184,0.8);">
+	<ion-header-bar class="bar-light bar-subheader" style="border:0px;background: rgba(75,204,184,0.8);height: 150px;position: absolute;">
+
+		<label class="item item-input" style="height: 35px;margin-top: 10px;width: 92%;margin-left: 4%;">
+			<i class="icon ion-search placeholder-icon"></i>
+			<input tf-search map="map" type="text" placeholder="Rechercher une destination" style="border: 0px;">
+		</label>
+		<div class="menu-home padding">
+			<div class="row">
+			  <div class="col">
+			  		<p class="bloc-image" ng-click="filterRestaurant()">
+					   <img src="img/resto-icon.png" alt="Dune" title="Cliquez pour agrandir" />
+						<span class="figcaption">Restaurants</span>
+					</p>
+			  </div>
+			  <div class="col">
+			  		<p class="bloc-image" ng-click="filterCafe()">
+					   <img src="img/cafe-icon.png" alt="Dune" title="Cliquez pour agrandir" />
+						<span class="figcaption">Cafes</span>
+					</p>
+			  </div>
+			  <div class="col">
+			  		<p class="bloc-image" ng-click="filterPatisserie()">
+					   <img src="img/pattesserie-icon.png" alt="Dune" title="Cliquez pour agrandir" />
+						<span class="figcaption">Patisseries</span>
+					</p>
+			  </div>
+			  <div class="col">
+			  		<p class="bloc-image" ng-click="filterGlacier()">
+					   <img src="img/glacier-icon.png" alt="Dune" title="Cliquez pour agrandir" />
+						<span class="figcaption">Glaciers</span>
+					</p>
+			  </div>
+			  <div class="col">
+			  		<p class="bloc-image" ng-click="filterAll()">
+					   <img src="img/tous-icon.png" alt="Dune" title="Cliquez pour agrandir" />
+						<span class="figcaption">TOUS</span>
+					</p>
+			  </div>
+			</div>
+		</div>
+	</ion-header-bar>
+	<ion-content>
+		
+	<div id="google-maps" tf-maps map="map" class="map">
+
+	</div>
+		
+	</ion-content>
+	</ion-view>
+		
